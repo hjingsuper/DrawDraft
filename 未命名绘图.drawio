@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.15">
   <diagram name="第 1 页" id="QD-3CWRlaLzVym5qp3W4">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rce3BEnM_m6LJIpe2gvt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rce3BEnM_m6LJIpe2gvt-1" target="rce3BEnM_m6LJIpe2gvt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rce3BEnM_m6LJIpe2gvt-1" value="点击打卡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rce3BEnM_m6LJIpe2gvt-3" value="取上一次打卡时间，如果是上班卡，则看上班卡是否在前一天下午三点半&lt;div&gt;再结合现在的打卡时间，是否超过上午2点，如果超过则还是上班卡&lt;/div&gt;&lt;div&gt;如果没超过则是下班卡&lt;/div&gt;&lt;div&gt;如果是下班卡，那么必定是上班卡&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="440" height="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
